@@ -1,0 +1,80 @@
+/* Dashboard.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #97c987;
+  padding: 15px;
+  height: 1000px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  height: 1000px;
+}
+
+.sidenav ul li {
+  margin: 10px 0;
+}
+
+.sidenav ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.sidenav ul li a.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.sidenav ul li a .icon {
+  margin-right: 10px;
+}
+
+.page {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.intro, .features {
+  margin: 20px 0;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.feature img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}

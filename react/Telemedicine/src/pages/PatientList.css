@@ -1,0 +1,33 @@
+.patient-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.patient-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.patient-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-list th, .patient-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.patient-list th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.patient-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.patient-list tr:hover {
+  background-color: #ddd;
+}
